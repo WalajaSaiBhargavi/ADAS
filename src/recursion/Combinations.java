@@ -2,11 +2,11 @@ package recursion;
 
 public class Combinations {
 
-    static int [] arr = {1,2,3};
-    static boolean[] flag = new boolean[3];
+    static int [] arr = {1,2,3,4};
+    static boolean[] flag = new boolean[4];
 
     public static void main(String[] args) {
-        new Combinations().combinations(arr, 3, 0, flag);
+        new Combinations().combinations(arr, 4, 0, flag);
     }
 
     public  void combinations(int [] arr, int N, int idx, boolean flag[]){
