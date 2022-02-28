@@ -7,7 +7,8 @@ import java.util.Stack;
 /**
  * 
  * Reverse a Stack without using loop and using recursion
- * Two methods - One gives 
+ * Two methods - 
+ * One method which inserts anything in the bottom of the stack
  *
  */
 
