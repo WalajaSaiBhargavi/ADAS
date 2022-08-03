@@ -13,8 +13,8 @@ public class SortAStack {
 		myStack.push(9);
 		myStack.push(11);
 		sortStack(myStack);
-		for(int i : myStack) {
-			System.out.print(i);
+		while(!myStack.isEmpty()) {
+			System.out.print(myStack.pop());
 		}
 	}
 
@@ -31,7 +31,7 @@ public class SortAStack {
 			myStack.push(temp);
 		} else {
 			int a = myStack.pop();
-			if(a > temp) {
+			if(a < temp) {
 				sortStack(myStack, temp);
 				myStack.push(a);
 			} else {

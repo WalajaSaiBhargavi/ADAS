@@ -1,10 +1,10 @@
 package binaryTree;
 
 public class Node {
-	int data;
+	public int data;
 	Node left, right;
 	
-	Node(int data){
+	public Node(int data){
 		this.data = data;
 	}
 }

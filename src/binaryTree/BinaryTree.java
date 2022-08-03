@@ -81,7 +81,7 @@ public class BinaryTree {
 		preorder(node.right);
 	}
 	
-	private static void levelOrder(Node rootNode){
+	public static void levelOrder(Node rootNode){
 		if(rootNode == null)
 			return;
 		Node current = rootNode;
